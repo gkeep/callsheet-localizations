@@ -260,8 +260,14 @@
     "All" : {
 
     },
+    "All Jobs" : {
+      "comment" : "When viewing a person, show their movie & TV crew jobs"
+    },
     "All Messages" : {
       "comment" : "Shown in the context of a semi-hidden debugging screen."
+    },
+    "All Roles" : {
+      "comment" : "When viewing a person, show their movie & TV acting roles"
     },
     "App Icon" : {
 
@@ -283,6 +289,9 @@
     },
     "Average runtime" : {
       "comment" : "How long episodes run in a single season of TV"
+    },
+    "Awards" : {
+      "comment" : "Quick access link; awards that a film or show has won"
     },
     "Be a hero and support independent apps" : {
       "comment" : "Shown when trying to sell a subscription"
@@ -332,8 +341,8 @@
     "Cast" : {
 
     },
-    "Cast or Crew" : {
-
+    "Cast Options" : {
+      "comment" : "Accessibility title of the menu item for all/movie/TV cast selection"
     },
     "Change what language Callsheet itself uses" : {
       "comment" : "Description for the row in settings that allows you to set the app's language"
@@ -393,11 +402,17 @@
     "Crew" : {
 
     },
+    "Crew Options" : {
+      "comment" : "Accessibility title of the menu item for all/movie/TV crew selection"
+    },
     "Current Location" : {
       "comment" : "Shown in Where to Watch if the current locale can't be found"
     },
     "Custom icons" : {
       "comment" : "Shown on the pre-sales screen to get users to subscribe"
+    },
+    "Dark" : {
+      "comment" : "Dark theme (other options are \"light\" and \"system\")"
     },
     "Data provided by The Movie Database" : {
 
@@ -454,6 +469,12 @@
       "comment" : "Shown in Settings to try to get users to rate the app",
       "extractionState" : "manual"
     },
+    "Film Jobs" : {
+      "comment" : "When viewing a person, show only their movie crew jobs"
+    },
+    "Film Roles" : {
+      "comment" : "When viewing a person, show only their movie acting roles"
+    },
     "Find a way to watch in:" : {
       "comment" : "Shown when choosing a country to use for Where to Watch (long version)"
     },
@@ -468,6 +489,9 @@
     },
     "For Where to Watch." : {
       "comment" : "Shown in Settings"
+    },
+    "Force Callsheet's theme, or use the system one." : {
+
     },
     "Free" : {
       "comment" : "A kind of service to watch media on. Contrast with \"Ads\", \"Rent\", \"Buy\", \"Subscription\""
@@ -632,7 +656,7 @@
       "comment" : "Shown in a semi-hidden debugging view"
     },
     "In-App Browser" : {
-      "comment" : "Which browser to use for web links (the other option is \"Safari\")"
+      "comment" : "Which browser to use for web links (the other option is \"System Default\")"
     },
     "In-Credits Bonus Scenes" : {
 
@@ -667,6 +691,9 @@
     },
     "Learn about the people behind Callsheet." : {
       "extractionState" : "manual"
+    },
+    "Light" : {
+      "comment" : "Light theme (other options are \"system\" and \"dark\")"
     },
     "Lived" : {
       "comment" : "How long an actor lived"
@@ -710,11 +737,11 @@
     "Movies featuring" : {
       "comment" : "Title for cast union view"
     },
-    "Name or job" : {
-      "comment" : "Crew search prompt"
+    "Name or job in %@" : {
+      "comment" : "Crew search prompt; I'll replace \"%@\" with the name of the media in question, so for the translation, please include \"%@\" where appropriate."
     },
-    "Name or role" : {
-      "comment" : "Cast search prompt"
+    "Name or role in %@" : {
+      "comment" : "Cast search prompt; I'll replace \"%@\" with the name of the media in question, so for the translation, please include \"%@\" where appropriate."
     },
     "New Episodes" : {
 
@@ -778,6 +805,9 @@
     },
     "Oldest First" : {
       "comment" : "When setting sort order"
+    },
+    "Open in browser" : {
+      "comment" : "Shown on the share menu to open the active screen on the web"
     },
     "Optionally, you can choose to help more." : {
       "comment" : "Shown when trying to upsell the user on expensive subscriptions"
@@ -974,14 +1004,11 @@
     "Runtime" : {
       "comment" : "Heading for the total runtime of a TV episode"
     },
-    "Safari" : {
-      "comment" : "Which browser to use for web links (the other option is \"In-App Browser\")"
-    },
     "Same perks as all other plans" : {
       "comment" : "Shown when trying to sell a subscription"
     },
     "Save" : {
-
+      "comment" : "As in, commit a pending change"
     },
     "Save %@" : {
       "comment" : "Encouraging users to save money by purchasing a yearly subscription — \"Save 17%\""
@@ -1023,13 +1050,7 @@
     "Share" : {
 
     },
-    "Share Callsheet link" : {
-
-    },
     "Share Callsheet link…" : {
-
-    },
-    "Share web link" : {
 
     },
     "Share web link…" : {
@@ -1101,6 +1122,12 @@
     "Summary" : {
 
     },
+    "System" : {
+      "comment" : "System theme; this represents \"the light/dark mode the device is in\" (other options are always light and always dark)"
+    },
+    "System Default" : {
+      "comment" : "Which browser to use for web links (the other option is \"In-App Browser\")"
+    },
     "Technical Details" : {
       "comment" : "Quick access link"
     },
@@ -1109,6 +1136,9 @@
     },
     "Thank you for trying out Callsheet. 💙" : {
 
+    },
+    "Theme" : {
+      "comment" : "Persnickety Preference for light/dark/system theme"
     },
     "There is no watch information available for *%@*." : {
 
@@ -1121,6 +1151,12 @@
     },
     "Though it was written by me, Callsheet wouldn't be possible without the efforts of the following people:" : {
 
+    },
+    "Title or job" : {
+      "comment" : "Crew search prompt in the context of a single person (not a movie/show/etc)"
+    },
+    "Title or role" : {
+      "comment" : "Cast search prompt in the context of a single person (not a movie/show/etc)"
     },
     "Title, cast, or crew" : {
       "comment" : "Main search prompt on the bottom bar!"
@@ -1136,6 +1172,12 @@
     },
     "Trivia" : {
       "comment" : "Quick access link"
+    },
+    "TV Jobs" : {
+      "comment" : "When viewing a pesron, show only their TV crew jobs"
+    },
+    "TV Roles" : {
+      "comment" : "When viewing a person, show only their TV acting roles"
     },
     "TV Shows" : {
       "comment" : "On cast list, display movies, shows, or movies & shows"
